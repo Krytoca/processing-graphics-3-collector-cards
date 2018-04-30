@@ -39,11 +39,21 @@ void draw() {
   
   image(img1, 60, 114);//Load Picture of Person
   
+  fill(255,255,255);
+  ellipse(330, 150, 80, 60);//Add small circle around scan component
+  
+  image(img2, 300, 125);//Load image of scan component
+  
   //Load all info of the person on small space
   textFont(font3);
   text("Surname/Nom", 160, 120);
+  
   fill(247,227,200);
   rect(150, 116, 120, 85);
+  
+  fill(0,0,0);
+  textFont(font2);
+  text("National Identity and Personal Biometrics", 60, 114);
   
   fill(0,0,0);
   textFont(font4);
@@ -69,4 +79,20 @@ void draw() {
   
   textFont(font1);
   text("03 JUN / JUIN 60", 155, 195);
+  
+  fill(168,146,116);
+  textFont(font3);
+  text("Genuine", 300, 200);
+  
+  fill(168,146,116);
+  textFont(font3);
+  text("Genuine", 300, 215);
+  
+  fill(168,146,116);
+  textFont(font3);
+  text("Genuine", 370, 215);
+  
+  fill(168,146,116);
+  textFont(font3);
+  text("Genuine", 370, 200);
 }
