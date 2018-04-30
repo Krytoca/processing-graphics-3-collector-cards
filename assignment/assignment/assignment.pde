@@ -39,11 +39,11 @@ void draw() {
   
   image(img1, 60, 114);//Load Picture of Person
   
-  //Load all info of the person
+  //Load all info of the person on small space
   textFont(font3);
   text("Surname/Nom", 160, 120);
   fill(247,227,200);
-  rect(150, 116, 100, 80);
+  rect(150, 116, 120, 85);
   
   fill(0,0,0);
   textFont(font4);
@@ -57,4 +57,16 @@ void draw() {
   
   textFont(font1);
   text("Rupert", 155, 155);
+  
+  textFont(font4);
+  text("Nationality/Nationalité", 155, 165);
+  
+  textFont(font1);
+  text("British Citizen", 155, 175);
+  
+  textFont(font4);
+  text("Date of birth/Date de naissance", 155, 185);
+  
+  textFont(font1);
+  text("03 JUN / JUIN 60", 155, 195);
 }
